@@ -4,7 +4,7 @@ const twilio = require('twilio')(
   );
   const body = 'Ice creams are coming!';
 
-  const numbers = ['+919358668593'];
+  const numbers = ['The number you have to send message'];
   
   Promise.all(
     numbers.map(number => {
