@@ -4,7 +4,7 @@ const twilio = require('twilio')(
   );
   const body = 'Ice creams are coming!';
 
-const number='+919358668593';
+const number='The number you have to send message';
 
 
 twilio.messages
